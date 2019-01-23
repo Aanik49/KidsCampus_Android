@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.anik.finalproject.Test_color"
+    android:background="@drawable/learning2">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Q1: What is Blue Color ?"
+        android:id="@+id/textViewcolortest1"
+       android:layout_marginLeft="50dp"
+        android:textStyle="italic"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="70dp"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:id="@+id/buttontest1"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/textViewcolortest1"
+        android:layout_alignLeft="@+id/textViewcolortest1"
+        android:layout_alignStart="@+id/textViewcolortest1" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text=""
+        android:id="@+id/buttontest2"
+        android:layout_marginLeft="16dp"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_below="@+id/textViewcolortest1"
+        android:layout_toRightOf="@+id/buttontest1"
+        android:layout_toEndOf="@+id/buttontest1" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/buttontest3"
+        android:layout_marginLeft="16dp"
+        android:background="@android:color/holo_green_dark"
+        android:layout_alignTop="@+id/buttontest2"
+        android:layout_toRightOf="@+id/buttontest2"
+        android:layout_toEndOf="@+id/buttontest2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Q2: What is Green Color??"
+        android:textStyle="italic"
+        android:textColor="@android:color/black"
+        android:id="@+id/textViewcolortest2"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/buttontest1"
+        android:layout_alignStart="@+id/buttontest1" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text=""
+        android:id="@+id/buttontest4"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_below="@+id/textViewcolortest2"
+        android:layout_alignLeft="@+id/textViewcolortest2"
+        android:layout_alignStart="@+id/textViewcolortest2" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/buttontest5"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/holo_purple"
+        android:layout_below="@+id/textViewcolortest2"
+        android:layout_toRightOf="@+id/buttontest4"
+        android:layout_toEndOf="@+id/buttontest4"
+        android:layout_marginLeft="16dp"/>
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text=""
+        android:background="@android:color/holo_green_dark"
+        android:id="@+id/buttontest6"
+        android:layout_below="@+id/textViewcolortest2"
+        android:layout_toRightOf="@+id/buttontest5"
+        android:layout_toEndOf="@+id/buttontest5"
+        android:layout_marginLeft="16dp"/>
+
+
+</RelativeLayout>

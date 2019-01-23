@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context="com.example.anik.finalproject.Test_technology"
+    android:background="@drawable/learning2">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Which is Mobile ?"
+        android:id="@+id/textViewtestscience"
+        android:textColor="@android:color/black"
+        android:textStyle="italic"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="71dp" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageButtontestmobile"
+        android:layout_below="@+id/textViewtestscience"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/mobile"/>
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageButtontestcomputer"
+        android:layout_below="@+id/imageButtontestmobile"
+        android:layout_alignLeft="@+id/imageButtontestmobile"
+        android:layout_alignStart="@+id/imageButtontestmobile"
+        android:background="@drawable/computer"
+        android:layout_marginTop="8dp"/>
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageButtonmodem"
+        android:background="@drawable/modem"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/imageButtontestcomputer"
+        android:layout_alignLeft="@+id/imageButtontestcomputer"
+        android:layout_alignStart="@+id/imageButtontestcomputer" />
+
+
+</RelativeLayout>

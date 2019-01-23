@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context="com.example.anik.finalproject.Test_shape"
+    android:background="@drawable/learning2">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Which image is Square?"
+        android:id="@+id/textViewtestshape"
+        android:layout_alignParentTop="true"
+        android:textColor="@android:color/black"
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp" />
+
+    <ImageButton
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageButtontrapizium"
+        android:background="@drawable/trapizium"
+        android:layout_below="@+id/textViewtestshape"
+        android:layout_alignLeft="@+id/imageButtonsquare"
+        android:layout_alignStart="@+id/imageButtonsquare"
+        android:layout_marginTop="8dp"/>
+
+    <ImageButton
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageButtonsquare"
+        android:layout_below="@+id/imageButtontrapizium"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/square"
+        android:layout_marginTop="8dp"/>
+
+    <ImageButton
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageButtonstar"
+        android:background="@drawable/star"
+        android:layout_below="@+id/imageButtonsquare"
+        android:layout_alignLeft="@+id/imageButtonsquare"
+        android:layout_alignStart="@+id/imageButtonsquare"
+        android:layout_marginTop="8dp"/>
+
+</RelativeLayout>

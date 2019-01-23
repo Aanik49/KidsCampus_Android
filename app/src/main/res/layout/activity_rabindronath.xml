@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.anik.finalproject.Rabindronath"
+    android:background="@drawable/learningview">
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonl22"
+        android:background="@drawable/leftarrow"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonr22"
+        android:background="@drawable/rightarrow"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:id="@+id/imageViewrobi"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/robithakur"
+        android:layout_below="@+id/textViewrobi"
+        android:layout_toLeftOf="@+id/imageButtonr22"
+        android:layout_toStartOf="@+id/imageButtonr22" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Rabindranath Tagore"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/black"
+        android:textStyle="italic"
+        android:id="@+id/textViewrobi"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/imageViewrobi"
+        android:layout_alignEnd="@+id/imageViewrobi" />
+</RelativeLayout>

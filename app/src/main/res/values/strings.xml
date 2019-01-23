@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Kids Campus</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">Kids Campus</string>
+    <string name="title_activity_learning">Kids Campus</string>
+    <string name="title_activity_testing">Kids Campus</string>
+    <string name="title_activity_about">Kids Campus</string>
+    <string name="title_activity_shape">Kids Campus</string>
+    <string name="title_activity_color">Blue</string>
+    <string name="title_activity_architecture">Kids Campus</string>
+    <string name="title_activity_toys">Kids Campus</string>
+    <string name="title_activity_writer">Kids Campus</string>
+    <string name="title_activity_technology">Kids Campus</string>
+    <string name="title_activity_test_color">Kids Campus</string>
+    <string name="title_activity_test_shape">Kids Campus</string>
+    <string name="title_activity_test_writer">Kids Campus</string>
+    <string name="title_activity_test_toys">Kids Campus</string>
+    <string name="title_activity_test_architecture">Kids Campus</string>
+    <string name="title_activity_test_technology">Kids Campus</string>
+    <string name="title_activity_green">Green</string>
+    <string name="title_activity_red">Red</string>
+    <string name="title_activity_orange">Orange</string>
+    <string name="title_activity_yellow">Yellow</string>
+    <string name="title_activity_testgreen">Testgreen</string>
+    <string name="title_activity_testorange">Testorange</string>
+    <string name="title_activity_testred">Testred</string>
+    <string name="title_activity_testyellow">Testyellow</string>
+    <string name="title_activity_star">Star</string>
+    <string name="title_activity_tripigium">Tripigium</string>
+    <string name="title_activity_square">Square</string>
+    <string name="title_activity_circle">Circle</string>
+    <string name="title_activity_sririsoudho">Sririsoudho</string>
+    <string name="title_activity_mohasthanghor">Mohasthanghor</string>
+    <string name="title_activity_moynamoti">Moynamoti</string>
+    <string name="title_activity_paharpur">Paharpur</string>
+    <string name="title_activity_nazrul">Nazrul</string>
+    <string name="title_activity_rabindronath">Rabindronath</string>
+    <string name="title_activity_jasimuddin">Jasimuddin</string>
+    <string name="title_activity_mobile">Mobile</string>
+    <string name="title_activity_computer">Computer</string>
+    <string name="title_activity_television">Television</string>
+    <string name="title_activity_laptop">Laptop</string>
+    <string name="title_activity_bankim">Bankim</string>
+</resources>

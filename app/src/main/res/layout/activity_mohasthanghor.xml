@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.anik.finalproject.Mohasthanghor"
+    android:background="@drawable/learningview">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imagebtnleft14"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/leftarrow"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imagebtnright14"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/rightarrow"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="24dp"
+        android:id="@+id/imageViewmohasthanghor"
+        android:background="@drawable/image3"
+        android:layout_below="@+id/textViewhor"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Mohastan Ghar"
+        android:id="@+id/textViewhor"
+        android:textSize="22sp"
+        android:textColor="@android:color/black"
+        android:textStyle="italic"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/imagebtnright14"
+        android:layout_toStartOf="@+id/imagebtnright14"
+        android:layout_marginTop="16dp"/>
+
+
+</RelativeLayout>

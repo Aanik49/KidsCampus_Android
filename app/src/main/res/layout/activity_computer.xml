@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context="com.example.anik.finalproject.Computer"
+    android:background="@drawable/learningview">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imagebtnleft17"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/leftarrow"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imagebtnright17"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/rightarrow"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:background="@drawable/computer"
+        android:layout_marginTop="24dp"
+        android:id="@+id/imageViewcomputer"
+        android:layout_below="@+id/textViewcomputer"
+        android:layout_toRightOf="@+id/imagebtnleft17"
+        android:layout_toEndOf="@+id/imagebtnleft17" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Computer"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:textStyle="italic"
+        android:id="@+id/textViewcomputer"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

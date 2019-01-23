@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.anik.finalproject.Paharpur"
+    android:background="@drawable/learningview">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imagebtnleft13"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/leftarrow"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imagebtnright13"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/rightarrow"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="24dp"
+        android:id="@+id/imageViewpaharpur"
+        android:background="@drawable/image5"
+        android:layout_below="@+id/textViewpaharpur"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Paharpur"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:textStyle="italic"
+        android:layout_marginTop="16dp"
+        android:id="@+id/textViewpaharpur"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

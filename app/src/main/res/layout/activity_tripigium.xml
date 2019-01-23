@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.anik.finalproject.Tripigium"
+    android:background="@drawable/learningview">
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonl8"
+        android:background="@drawable/leftarrow"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonr8"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/rightarrow"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:id="@+id/imageViewtrapizium"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/trapizium"
+        android:layout_below="@+id/textViewtrapizium"
+        android:layout_alignRight="@+id/textViewtrapizium"
+        android:layout_alignEnd="@+id/textViewtrapizium" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Trapizium"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:textStyle="italic"
+        android:id="@+id/textViewtrapizium"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/imageButtonr8"
+        android:layout_toStartOf="@+id/imageButtonr8"
+        android:layout_marginTop="16dp"/>
+</RelativeLayout>

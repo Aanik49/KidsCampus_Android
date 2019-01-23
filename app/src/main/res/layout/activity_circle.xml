@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.anik.finalproject.Circle"
+    android:background="@drawable/learningview">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonl10"
+        android:background="@drawable/leftarrow"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonr10"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/rightarrow"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="24dp"
+        android:id="@+id/imageViewcircle"
+        android:background="@drawable/circlepic"
+        android:layout_below="@+id/textViewcircle"
+        android:layout_toRightOf="@+id/imageButtonl10"
+        android:layout_toEndOf="@+id/imageButtonl10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Circle"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:textStyle="italic"
+        android:id="@+id/textViewcircle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>
